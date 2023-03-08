@@ -1,0 +1,42 @@
+const quizDb = [
+  {
+    question: "Q:1 Full Form of HTML is ?",
+    a: "Hypo Text Markup Language",
+    b: "Hyper Text Markup Language",
+    c: "Hypo Test Markup Language",
+    d: "Hyper Text Marquee Language",
+    ans: "ans2",
+  },
+  {
+    question: "Q:2 Full Form of CSS is ?",
+    a: "Cascaded Style Sheets",
+    b: "Cascading Styling Sheets",
+    c: "Cascoding Style Sheets",
+    d: "Cascading Style Sheets",
+    ans: "ans4",
+  },
+  {
+    question: "Q:3 Inside which HTML element do we put the JavaScript?",
+    a: "<script>",
+    b: "<js>",
+    c: "<scripting>",
+    d: "<javascript>",
+    ans: "ans1",
+  },
+  {
+    question: "Q:4 Where is the correct place to insert a JavaScript?",
+    a: "Both the <head> section and <body> section are correct",
+    b: "the <body> section",
+    c: "the <head> section",
+    d: "none",
+    ans: "ans2",
+  },
+  {
+    question: 'Q:5 How do you write "HELLO WORLD" in an alert box?',
+    a: 'alert("HELlO WORLD")',
+    b: 'msg("HELlO WORLD")',
+    c: 'msgBox("HELlO WORLD")',
+    d: 'alertBox("HELlO WORLD")',
+    ans: "ans1",
+  },
+];

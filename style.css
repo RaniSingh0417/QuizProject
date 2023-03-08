@@ -36,22 +36,54 @@ html {
 }
 
 .inner-div h2 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     font-weight: 400;
-    margin: 1rem 0 4rem 0;
+    /* margin: 1rem 0 4rem 0; */
+        margin-bottom: 1.5rem;
 }
 
 .inner-div li {
-    font-size: 2rem;
-    margin-top: 1.5rem;
+    font-size: 1.5rem;
+        margin-bottom: 1.5rem;
     list-style: none;
 }
 
 .inner-div button {
-    margin-top: 1rem;
+    margin: 2rem;
 
 }
 
 input {
     cursor: pointer;
+}
+#submit,
+.btn {
+    padding: 1rem 3rem;
+    outline: none;
+    font-size: 1.8rem;
+    font-weight: 500;
+    display: block;
+    margin: auto;
+    border: none;
+    color: #fff;
+    background-color: rgb(103, 171, 149);
+    border-radius: .8rem;
+    margin-top: 4rem;
+}
+
+#submit:hover {
+    background-color: rgb(83, 149, 127);
+    font-size: 1.9rem;
+    /* font-weight: 600; */
+}
+
+#showScore {
+    background-color: #dfe6e9;
+    margin-top: 3rem;
+    padding: 3rem 4rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+}
+
+.scoreArea {
+    display: none;
 }

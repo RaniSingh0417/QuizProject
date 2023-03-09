@@ -5,7 +5,7 @@ const quizDB = [
     b: "Hyper Text Markup Language",
     c: "Hypo Test Markup Language",
     d: "Hyper Text Marquee Language",
-    ans: "ans2",
+    ans: "opt_2",
   },
   {
     question: "Q:2 Full Form of CSS is ?",
@@ -13,7 +13,7 @@ const quizDB = [
     b: "Cascading Styling Sheets",
     c: "Cascoding Style Sheets",
     d: "Cascading Style Sheets",
-    ans: "ans4",
+    ans: "opt_4",
   },
   {
     question: "Q:3 Inside which HTML element do we put the JavaScript?",
@@ -21,7 +21,7 @@ const quizDB = [
     b: "<js>",
     c: "<scripting>",
     d: "<javascript>",
-    ans: "ans1",
+    ans: "opt_1",
   },
   {
     question: "Q:4 Where is the correct place to insert a JavaScript?",
@@ -29,7 +29,7 @@ const quizDB = [
     b: "the <body> section",
     c: "the <head> section",
     d: "none",
-    ans: "ans2",
+    ans: "opt_2",
   },
   {
     question: 'Q:5 How do you write "HELLO WORLD" in an alert box?',
@@ -37,7 +37,7 @@ const quizDB = [
     b: 'msg("HELlO WORLD")',
     c: 'msgBox("HELlO WORLD")',
     d: 'alertBox("HELlO WORLD")',
-    ans: "ans1",
+    ans: "opt_1",
   },
 ];
 const question = document.querySelector(".question");
@@ -80,7 +80,9 @@ submit.addEventListener("click", () => {
     score++;
   }
   questionCount++;
+
   deSelectAll();
+
   if (questionCount < quizDB.length) {
     loadQuestion();
   } else {
